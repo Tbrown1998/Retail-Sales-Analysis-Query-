@@ -14,7 +14,8 @@ This project focuses on exploring, cleaning, and analyzing a superstore's retail
 - **Data Visualization:** Power BI (Future Work)
 
 ### Data Source
-- [Kaggle](www.kaggle.com)
+- The dataset used for this project is the "SQL - Retail Sales Analysis_utf" file, consisting of all sales made by the company. 
+- Dataset was downloaded from [Kaggle](www.kaggle.com)
 
 ## Project Objectives
 1. **Data Preparation** - Data understanding, exploration, data loading.
