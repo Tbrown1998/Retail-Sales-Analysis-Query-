@@ -9,7 +9,7 @@
 This project focuses on exploring, cleaning, and analyzing a superstore's retail sales data. It involves setting up a retail sales database, conducting exploratory data analysis (EDA), and using SQL queries to address key business questions.
 
 ## Tools Used
-- **Data Preparation** - Microsoft Excel
+- **Data Preparation & Loading** - Microsoft Excel
 - **DBMS:** PostgreSQL 
 - **Query Language:** SQL  
 - **Data Visualization:** Power BI (Future Work)
