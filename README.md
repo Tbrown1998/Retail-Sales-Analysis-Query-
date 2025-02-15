@@ -1,15 +1,27 @@
 # Retail-Sales-Analysis
 
+![retail-store-counter-ideas](https://github.com/user-attachments/assets/a1ce92ae-9807-4164-8096-a278d6d0f5cf)
+
+
 ## Project Overview
 **Project Title:** Retail Sales Analysis  
 
 This project focuses on exploring, cleaning, and analyzing a superstore's retail sales data. It involves setting up a retail sales database, conducting exploratory data analysis (EDA), and using SQL queries to address key business questions.
 
+## Tools Used
+- **DBMS:** PostgreSQL 
+- **Query Language:** SQL  
+- **Data Visualization:** Power BI (Future Work)
+
+### Data Source
+- [Kaggle](www.kaggle.com)
+
 ## Project Objectives
-1. **Retail Sales Database Setup** – Establish and populate a database using the provided sales data.  
-2. **Data Cleaning** – Detect and eliminate records containing missing or null values to ensure data quality.  
-3. **Exploratory Data Analysis (EDA)** – Conduct an initial analysis to gain insights into the dataset's structure and key trends.  
-4. **Business Analysis** – Utilize SQL queries to address critical business questions and extract meaningful insights from the sales data.  
+1. **Data Preparation** - Data understanding, exploration, data loading.
+2. **Retail Sales Database Setup** – Establish and populate a database using the provided sales data.  
+3. **Data Cleaning** – Detect and eliminate records containing missing or null values to ensure data quality.  
+4. **Key Business Insights (EDA)** – Conduct an initial analysis to gain insights into the dataset's structure and key trends. Utilize SQL queries to address critical business questions and extract meaningful insights from the sales data.  
+5. **Business Findings and Reccommendations** – Provide Business recommendations using insights & trends gotten from the sales data.
 
 ## Dataset Description
 The dataset contains transaction records from a retail store, including details such as:  
@@ -23,7 +35,12 @@ The dataset contains transaction records from a retail store, including details 
 
 ## Project Structure
 
-### 1. Database Setup
+### 1. Data Preparation (Excel): 
+- Data understanding, exploration, data loading.
+- Check dataset structure using Column Headers & Data Types
+- Standardizing Data Formats
+
+### 2. Database Setup
 - **Database Creation:** The project begins with setting up a database named `db_Retail_Sales`.  
 - **Table Creation:** A table called `Retail_Sales` is created to store sales data.  
 
@@ -49,7 +66,7 @@ CREATE TABLE Retail_Sales (
 );
 ```
 
-### 2. Data Exploration & Cleaning
+### 3. Data Exploration & Cleaning
   - **Record Count:** Determine the total number of records in the dataset.  
   - **Customer Count:** Find out how many unique customers are in the dataset.  
   - **Category Count:** Identify all unique product categories in the dataset.  
@@ -79,7 +96,7 @@ WHERE transactions_id IS null OR sale_date IS NULL OR sale_time IS NULL OR custo
 	OR category IS NULL OR quantity IS NULL OR price_per_unit IS NULL OR cogs IS NULL OR total_sale IS NULL;
 ```
 
-### 3. Key Business Insights
+### 4. Key Business Insights
 
 1. SQL query to Retrieve all transactions where the category is 'Clothing' and the quantity sold is more than 4 in the month of Nov-2022:
 
@@ -185,7 +202,7 @@ FROM Retail_Sales
 GROUP BY category
 ```
 
-## Findings & Insights
+## 4. Findings & Insights
 
 - **Customer Demographics:** Sales data spans different age groups, with Clothing and Beauty being the most popular categories.  
 - **High-Value Transactions:** Multiple transactions exceed $1,000, indicating a segment of high-spending customers.  
@@ -214,16 +231,11 @@ This project demonstrates how SQL can be used to clean, analyze, and derive insi
 
 ---
 
-## Tools Used
-- **Database:** PostgreSQL 
-- **Query Language:** SQL  
-- **Data Visualization:** Power BI (Future Work)  
+## 📌 About Me
+Hi, I'm Oluwatosin Amosu Bolaji, a Data Analyst skilled in SQL, Power BI, and Excel. I enjoy turning complex datasets into actionable insights through data visualization and business intelligence techniques.
 
----
+- **🔹 Key Skills:** Data Analysis | SQL Queries | Power BI Dashboards | Data Cleaning | Reporting
+- **🔹 Passionate About:** Data storytelling, problem-solving, and continuous learning
 
-## About Me
-*My name is AMosu Oluwatosin Bolaji, I am a Data Analyst passionate about using SQL and Power BI to extract insights from data. This project showcases my ability to clean, analyze, and visualize business data effectively.*  
-
-📌 **Portfolio:** [GitHub Profile Link]  
-📌 **LinkedIn:** [Your LinkedIn Profile]  
-
+- **📫 Let's connect!**
+- 🔗 [Linkedin](www.linkedin.com/in/oluwatosin-amosu-722b88141) | 🌐 [Portfolio](https://github.com/Tbrown1998?tab=repositories) | 📩 oluwabolaji60@gmail.com
