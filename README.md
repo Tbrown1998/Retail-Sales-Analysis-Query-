@@ -19,12 +19,11 @@ This project focuses on exploring, cleaning, and analyzing a superstore's retail
 - Dataset was downloaded from [Kaggle](www.kaggle.com)
 
 ## Project Objectives
-1. **Data Preparation** - Data understanding, exploration, data loading.
-2. **Retail Sales Database Setup** – Establish and populate a database using the provided sales data.
-3. **Import Data** - Import sales data to populate the cretated sales table
-4. **Data Cleaning** – Detect and eliminate records containing missing or null values to ensure data quality.  
-5. **Key Business Insights (EDA)** – Conduct an initial analysis to gain insights into the dataset's structure and key trends. Utilize SQL queries to address critical business questions and extract meaningful insights from the sales data.  
-6. **Business Findings and Reccommendations** – Provide Business recommendations using insights & trends gotten from the sales data.
+1. **Database Setup** – Establish and populate a database using the provided sales data.
+2. **Data Cleaning** – Detect and eliminate records containing missing or null values to ensure data quality.
+3. **Exploratory Data Analysis (EDA):** Perform basic exploratory data analysis to understand the dataset.
+4. **Key Business Insights** – Conduct an initial analysis to gain insights into the dataset's structure and key trends. Utilize SQL queries to address critical business questions and extract meaningful insights from the sales data.  
+5. **Business Findings and Reccommendations** – Provide Business recommendations using insights & trends gotten from the sales data.
 
 ## Dataset Description
 The dataset contains transaction records from a retail store, including details such as:  
@@ -39,7 +38,7 @@ The dataset contains transaction records from a retail store, including details 
 ## Project Structure
 
 ### 1. Data Preparation (Excel): 
-- Data understanding, exploration, data loading.
+- Data understanding, exploration, data loading, data importing.
 - Check dataset structure using Column Headers & Data Types
 - Standardizing Data Formats
 
@@ -68,10 +67,7 @@ CREATE TABLE Retail_Sales (
     total_sale FLOAT
 );
 ```
-### 3. Data Importation: 
-- Import sales data to fill the newly created sales table.
-
-### 4. Data Exploration & Cleaning
+### 3. Data Exploration & Cleaning
   - **Record Count:** Determine the total number of records in the dataset.  
   - **Customer Count:** Find out how many unique customers are in the dataset.  
   - **Category Count:** Identify all unique product categories in the dataset.  
@@ -101,7 +97,7 @@ WHERE transactions_id IS null OR sale_date IS NULL OR sale_time IS NULL OR custo
 	OR category IS NULL OR quantity IS NULL OR price_per_unit IS NULL OR cogs IS NULL OR total_sale IS NULL;
 ```
 
-### 5. Key Business Insights
+### 4. Key Business Insights
 
 1. SQL query to Retrieve all transactions where the category is 'Clothing' and the quantity sold is more than 4 in the month of Nov-2022:
 
@@ -207,7 +203,7 @@ FROM Retail_Sales
 GROUP BY category
 ```
 
-## 6. Findings & Insights
+## 5. Findings & Insights
 
 - **Customer Demographics:** Sales data spans different age groups, with Clothing and Beauty being the most popular categories.  
 - **High-Value Transactions:** Multiple transactions exceed $1,000, indicating a segment of high-spending customers.  
@@ -215,7 +211,7 @@ GROUP BY category
 - **Customer Insights:** The analysis highlights the top-spending customers and most popular product categories.  
 - **Sales by Time of Day:** Most transactions occur in the **Afternoon**, followed by the **Evening**.  
 
-## Business Recommendations
+## 6. Business Recommendations
 
 1. **Targeted Marketing:** Focus promotions on high-value customers and best-selling product categories.  
 2. **Seasonal Sales Planning:** Prepare inventory and marketing campaigns based on peak sales months.  
