@@ -1,4 +1,4 @@
-# Retail-Sales-Analysis
+# 💼 Retail-Sales-Analysis
 
 ![retail-store-counter-ideas](https://github.com/user-attachments/assets/a1ce92ae-9807-4164-8096-a278d6d0f5cf)
 
@@ -12,7 +12,8 @@ This project focuses on exploring, cleaning, and analyzing a superstore's retail
 - **Data Preparation & Loading** - Microsoft Excel
 - **DBMS:** PostgreSQL 
 - **Query Language:** SQL
-- **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions 
+- **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions
+- **Data Visualizations**: Powerbi (Future Work)
 
 ### Data Source
 - The dataset used for this project consists of all sales transaction made by the Retail company. 
@@ -213,10 +214,10 @@ GROUP BY category
 
 ## 6. Business Recommendations
 
-1. **Targeted Marketing:** Focus promotions on high-value customers and best-selling product categories.  
-2. **Seasonal Sales Planning:** Prepare inventory and marketing campaigns based on peak sales months.  
-3. **Operational Efficiency:** Allocate more staff during peak shopping hours to improve customer experience.  
-4. **Product Bundling:** Offer discounts on complementary products to increase average transaction size.  
+1. **🌟 Targeted Marketing:** Focus promotions on high-value customers and best-selling product categories.  
+2. **🌐 Seasonal Sales Planning:** Prepare inventory and marketing campaigns based on peak sales months.  
+3. **⏳ Operational Efficiency:** Allocate more staff during peak shopping hours to improve customer experience.  
+4. **🛒 Product Bundling:** Offer discounts on complementary products to increase average transaction size.  
 
 ---
 
