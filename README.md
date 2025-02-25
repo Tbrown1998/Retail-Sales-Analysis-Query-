@@ -13,7 +13,7 @@ This project focuses on exploring, cleaning, and analyzing a superstore's retail
 - **DBMS:** PostgreSQL 
 - **Query Language:** SQL
 - **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions
-- **Data Visualizations**: Powerbi (Future Work)
+- **Data Visualizations**: Powerbi
 
 ### Data Source
 - The dataset used for this project consists of all sales transaction made by the Retail company. 
@@ -35,7 +35,7 @@ The dataset contains transaction records from a retail store, including details 
 - **Product Category** – Classification of purchased products.  
 - **Quantity & Pricing** – Quantity sold, price per unit, and cost of goods sold (COGS).  
 - **Total Sale** – Final amount spent on each transaction.  
-
+---
 ## Project Structure
 
 ### 1. Data Preparation (Excel): 
@@ -203,8 +203,24 @@ SELECT DISTINCT (COUNT(customer_id)) customer_count, category
 FROM Retail_Sales
 GROUP BY category
 ```
+---
+## 5. Project Reports & Visualizations:
+- **Sales Summary:** Overview of total sales, customer demographics, and category performance.  
+- **Trend Analysis:** Insights into sales patterns across different months and time slots.  
+- **Customer Insights:** Reports on top-spending customers and unique customer counts per category.  
+#### Dashboard Overview:
+![Screenshot (27)](https://github.com/user-attachments/assets/b3ef2057-dcea-43b3-ac4b-ad65f9c51394)
 
-## 5. Findings & Insights
+#### Customers Purchase Behavior Insights:
+![Screenshot (30)](https://github.com/user-attachments/assets/b40c60a4-c726-40be-bb09-dd248edd3f78)
+
+#### Business Findings & Recommendations:
+![Screenshot (29)](https://github.com/user-attachments/assets/04991435-88b5-4632-b28b-3e625387eb59)
+
+
+---
+
+## 6. Findings & Insights
 
 - **Customer Demographics:** Sales data spans different age groups, with Clothing and Beauty being the most popular categories.  
 - **High-Value Transactions:** Multiple transactions exceed $1,000, indicating a segment of high-spending customers.  
@@ -212,19 +228,12 @@ GROUP BY category
 - **Customer Insights:** The analysis highlights the top-spending customers and most popular product categories.  
 - **Sales by Time of Day:** Most transactions occur in the **Afternoon**, followed by the **Evening**.  
 
-## 6. Business Recommendations
+## 7. Business Recommendations
 
 1. **🌟 Targeted Marketing:** Focus promotions on high-value customers and best-selling product categories.  
 2. **🌐 Seasonal Sales Planning:** Prepare inventory and marketing campaigns based on peak sales months.  
 3. **⏳ Operational Efficiency:** Allocate more staff during peak shopping hours to improve customer experience.  
 4. **🛒 Product Bundling:** Offer discounts on complementary products to increase average transaction size.  
-
----
-
-## Reports & Visualizations
-- **Sales Summary:** Overview of total sales, customer demographics, and category performance.  
-- **Trend Analysis:** Insights into sales patterns across different months and time slots.  
-- **Customer Insights:** Reports on top-spending customers and unique customer counts per category.  
 
 ---
 
