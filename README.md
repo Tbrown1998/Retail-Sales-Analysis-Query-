@@ -1,6 +1,7 @@
 # 💼 Retail-Sales-Analysis
 
-![retail-store-counter-ideas](https://github.com/user-attachments/assets/a1ce92ae-9807-4164-8096-a278d6d0f5cf)
+![retail-store-min](https://github.com/user-attachments/assets/b78248a8-bc69-4e33-917d-266e3f54c6cc)
+
 
 
 ## Project Overview
