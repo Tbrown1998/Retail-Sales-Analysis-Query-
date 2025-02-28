@@ -13,7 +13,7 @@ This project focuses on exploring, cleaning, and analyzing a superstore's retail
 4. **Key Business Insights** – Conduct an initial analysis to gain insights into the dataset's structure and key trends. Utilize SQL queries to address critical business questions and extract meaningful insights from the sales data.  
 5. **Business Findings and Reccommendations** – Provide Business recommendations using insights & trends gotten from the sales data.
 
-## Technology Stack
+## 🛠️ Technology Stack
 - **Data Preparation & Loading** - Microsoft Excel
 - **DBMS:** PostgreSQL 
 - **Query Language:** SQL
