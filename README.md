@@ -1,31 +1,30 @@
 # 💼 Retail-Sales-Analysis
+![Screenshot (27)](https://github.com/user-attachments/assets/b3ef2057-dcea-43b3-ac4b-ad65f9c51394)
 
-![retail-store-min](https://github.com/user-attachments/assets/b78248a8-bc69-4e33-917d-266e3f54c6cc)
-
-
-
-## Project Overview
+## 📌 Project Overview
 **Project Title:** Retail Sales Analysis  
 
 This project focuses on exploring, cleaning, and analyzing a superstore's retail sales data. It involves setting up a retail sales database, conducting exploratory data analysis (EDA), and using SQL queries to address key business questions.
+
+## Project Objectives 🎯
+1. **Database Setup** – Establish and populate a database using the provided sales data.
+2. **Data Cleaning** – Detect and eliminate records containing missing or null values to ensure data quality.
+3. **Exploratory Data Analysis (EDA):** Perform basic exploratory data analysis to understand the dataset.
+4. **Key Business Insights** – Conduct an initial analysis to gain insights into the dataset's structure and key trends. Utilize SQL queries to address critical business questions and extract meaningful insights from the sales data.  
+5. **Business Findings and Reccommendations** – Provide Business recommendations using insights & trends gotten from the sales data.
 
 ## Technology Stack
 - **Data Preparation & Loading** - Microsoft Excel
 - **DBMS:** PostgreSQL 
 - **Query Language:** SQL
 - **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions
-- **Data Visualizations**: Powerbi
+- **Data Visualizations**: Powerbi (Data Modelling, DAX, Data visualization and interactive reporting.)
+
+--- 
 
 ### Data Source
 - The dataset used for this project consists of all sales transaction made by the Retail company. 
 - Dataset was downloaded from [Kaggle](www.kaggle.com)
-
-## Project Objectives
-1. **Database Setup** – Establish and populate a database using the provided sales data.
-2. **Data Cleaning** – Detect and eliminate records containing missing or null values to ensure data quality.
-3. **Exploratory Data Analysis (EDA):** Perform basic exploratory data analysis to understand the dataset.
-4. **Key Business Insights** – Conduct an initial analysis to gain insights into the dataset's structure and key trends. Utilize SQL queries to address critical business questions and extract meaningful insights from the sales data.  
-5. **Business Findings and Reccommendations** – Provide Business recommendations using insights & trends gotten from the sales data.
 
 ## Dataset Description
 The dataset contains transaction records from a retail store, including details such as:  
@@ -35,15 +34,17 @@ The dataset contains transaction records from a retail store, including details 
 - **Demographics** – Customer gender and age.  
 - **Product Category** – Classification of purchased products.  
 - **Quantity & Pricing** – Quantity sold, price per unit, and cost of goods sold (COGS).  
-- **Total Sale** – Final amount spent on each transaction.  
+- **Total Sale** – Final amount spent on each transaction.
+
 ---
+
 ## Project Structure
 
-### 1. Data Preparation (Excel): 
+### 1. Data Preparation (Microsoft Excel): 
 - Data understanding, exploration, data loading, data importing.
 - Check dataset structure using Column Headers & Data Types
 - Standardizing Data Formats
-
+  
 ### 2. Database Setup
 - **Database Creation:** The project begins with setting up a database named `db_Retail_Sales`.  
 - **Table Creation:** A table called `Retail_Sales` is created to store sales data.  
@@ -205,11 +206,34 @@ FROM Retail_Sales
 GROUP BY category
 ```
 ---
-## 5. Project Reports & Visualizations:
+## 5. Project Reports & Visualizations (Powerbi):
 - **Sales Summary:** Overview of total sales, customer demographics, and category performance.  
 - **Trend Analysis:** Insights into sales patterns across different months and time slots.  
-- **Customer Insights:** Reports on top-spending customers and unique customer counts per category.  
-#### Dashboard Overview:
+- **Customer Insights:** Reports on top-spending customers and unique customer counts per category.
+
+## 🧮 Key Visuals
+- #### Revenue Share by Categories
+![Screenshot (67)](https://github.com/user-attachments/assets/c61df276-ce2c-4946-a4a2-26b99eb1b5d5)
+- #### Revenue ($) Amount by Categories
+![Screenshot (68)](https://github.com/user-attachments/assets/e78795b4-273c-46a4-ab13-e52df0d825bd)
+- #### Revenue Trending Over Time
+![Screenshot (69)](https://github.com/user-attachments/assets/c199c48f-f997-4692-82a9-4b795ea5534e)
+- #### Customers Count by Gender
+![Screenshot (70)](https://github.com/user-attachments/assets/5da3dede-fee0-4306-abb9-251049be575c)
+- #### Revenue ($) Amount by Gender
+![Screenshot (71)](https://github.com/user-attachments/assets/4f504ee8-25aa-4cbf-bee9-78b83895d779)
+- #### Revenue ($) Amount by Age Group
+![Screenshot (72)](https://github.com/user-attachments/assets/891ab53c-e391-45b9-838d-9aa8cac80d8d)
+- #### Average Sales ($) Amount by Age Group
+ ![Screenshot (73)](https://github.com/user-attachments/assets/13944cf1-2751-4cf7-ab87-09ee95373659)
+- #### Units Sold per Category by Age Group
+![Screenshot (74)](https://github.com/user-attachments/assets/a6dedd99-44a3-46c3-aa2e-74eb9ea60ab5)
+- #### Customers Count per Category
+![Screenshot (75)](https://github.com/user-attachments/assets/7d0560e5-06c1-45e2-ad29-fbbb338ac2e3)
+
+---
+
+#### Overall Dashboard Overview:
 ![Screenshot (27)](https://github.com/user-attachments/assets/b3ef2057-dcea-43b3-ac4b-ad65f9c51394)
 
 #### Customers Purchase Behavior Insights:
