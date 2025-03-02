@@ -6,7 +6,7 @@
 
 This project focuses on exploring, cleaning, and analyzing a superstore's retail sales data. It involves setting up a retail sales database, conducting exploratory data analysis (EDA), and using SQL queries to address key business questions.
 
-## Project Objectives 🎯
+## 🎯 Project Objectives 
 1. **Database Setup** – Establish and populate a database using the provided sales data.
 2. **Data Cleaning** – Detect and eliminate records containing missing or null values to ensure data quality.
 3. **Exploratory Data Analysis (EDA):** Perform basic exploratory data analysis to understand the dataset.
