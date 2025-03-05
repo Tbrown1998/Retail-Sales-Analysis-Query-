@@ -212,27 +212,6 @@ GROUP BY category
 - **Customer Insights:** Reports on top-spending customers and unique customer counts per category.
 
 ## 🧮 Key Visuals
-- #### Revenue Share by Categories
-![Screenshot (67)](https://github.com/user-attachments/assets/c61df276-ce2c-4946-a4a2-26b99eb1b5d5)
-- #### Revenue ($) Amount by Categories
-![Screenshot (68)](https://github.com/user-attachments/assets/e78795b4-273c-46a4-ab13-e52df0d825bd)
-- #### Revenue Trending Over Time
-![Screenshot (69)](https://github.com/user-attachments/assets/c199c48f-f997-4692-82a9-4b795ea5534e)
-- #### Customers Count by Gender
-![Screenshot (70)](https://github.com/user-attachments/assets/5da3dede-fee0-4306-abb9-251049be575c)
-- #### Revenue ($) Amount by Gender
-![Screenshot (71)](https://github.com/user-attachments/assets/4f504ee8-25aa-4cbf-bee9-78b83895d779)
-- #### Revenue ($) Amount by Age Group
-![Screenshot (72)](https://github.com/user-attachments/assets/891ab53c-e391-45b9-838d-9aa8cac80d8d)
-- #### Average Sales ($) Amount by Age Group
- ![Screenshot (73)](https://github.com/user-attachments/assets/13944cf1-2751-4cf7-ab87-09ee95373659)
-- #### Units Sold per Category by Age Group
-![Screenshot (74)](https://github.com/user-attachments/assets/a6dedd99-44a3-46c3-aa2e-74eb9ea60ab5)
-- #### Customers Count per Category
-![Screenshot (75)](https://github.com/user-attachments/assets/7d0560e5-06c1-45e2-ad29-fbbb338ac2e3)
-
----
-
 #### Overall Dashboard Overview:
 ![Screenshot (27)](https://github.com/user-attachments/assets/b3ef2057-dcea-43b3-ac4b-ad65f9c51394)
 
@@ -242,6 +221,8 @@ GROUP BY category
 #### Business Findings & Recommendations:
 ![Screenshot (29)](https://github.com/user-attachments/assets/04991435-88b5-4632-b28b-3e625387eb59)
 
+## 🔗 Power BI Dashboard Link
+[View the Interactive Retail Sales Dashboard](https://app.powerbi.com/reportEmbed?reportId=7c27309d-82a6-4b12-8fc3-052503ef371d&autoAuth=true&ctid=3af45fec-8c0e-49be-8467-608b1fd05a35)
 
 ---
 
@@ -259,11 +240,6 @@ GROUP BY category
 2. **🌐 Seasonal Sales Planning:** Prepare inventory and marketing campaigns based on peak sales months.  
 3. **⏳ Operational Efficiency:** Allocate more staff during peak shopping hours to improve customer experience.  
 4. **🛒 Product Bundling:** Offer discounts on complementary products to increase average transaction size.  
-
----
-
-## Conclusion
-This project demonstrates how SQL can be used to clean, analyze, and derive insights from retail sales data. The findings offer valuable business recommendations that can enhance marketing strategies, improve customer experience, and optimize sales performance.   
 
 ---
 
