@@ -215,14 +215,14 @@ GROUP BY category
 #### Overall Dashboard Overview:
 ![Screenshot (27)](https://github.com/user-attachments/assets/b3ef2057-dcea-43b3-ac4b-ad65f9c51394)
 
-#### Customers Purchase Behavior Insights:
+## Customers Purchase Behavior Insights:
 ![Screenshot (30)](https://github.com/user-attachments/assets/b40c60a4-c726-40be-bb09-dd248edd3f78)
 
-#### Business Findings & Recommendations:
+## Business Findings & Recommendations:
 ![Screenshot (29)](https://github.com/user-attachments/assets/04991435-88b5-4632-b28b-3e625387eb59)
 
 ## 🔗 Power BI Dashboard Link
-[View the Interactive Retail Sales Dashboard to view Key Visuals](https://app.powerbi.com/reportEmbed?reportId=7c27309d-82a6-4b12-8fc3-052503ef371d&autoAuth=true&ctid=3af45fec-8c0e-49be-8467-608b1fd05a35)
+Click the Link To [View the Interactive Retail Sales Dashboard to view Key Visuals](https://app.powerbi.com/reportEmbed?reportId=7c27309d-82a6-4b12-8fc3-052503ef371d&autoAuth=true&ctid=3af45fec-8c0e-49be-8467-608b1fd05a35)
 
 ---
 
@@ -249,5 +249,11 @@ Hi, I'm Oluwatosin Amosu Bolaji, a Data Analyst skilled in SQL, Power BI, and Ex
 - **🔹 Key Skills:** Data Analysis | SQL Queries | Power BI Dashboards | Data Cleaning | Reporting
 - **🔹 Passionate About:** Data storytelling, problem-solving, and continuous learning
 
-- **📫 Let's connect!**
-- 🔗 [Linkedin](www.linkedin.com/in/oluwatosin-amosu-722b88141) | 🌐 [Portfolio](https://github.com/Tbrown1998?tab=repositories) | 📩 oluwabolaji60@gmail.com
+#### 🚀 **Always learning and improving—driven by curiosity and a passion for analytics.**  
+
+### 📫 **Let’s connect!**  
+- 📩 oluwabolaji60@gmail.com
+- 🔗 : [LinkedIn](https://www.linkedin.com/in/oluwatosin-amosu-722b88141)
+- 🌐 : [My Portfolio](https://www.datascienceportfol.io/oluwabolaji60) 
+- 𝕏 : [Twitter/X](https://x.com/thee_oluwatosin?s=21&t=EqoeQVdQd038wlSUzAtQzw)
+- 🔗 : [Medium](https://medium.com/@oluwabolaji60)
