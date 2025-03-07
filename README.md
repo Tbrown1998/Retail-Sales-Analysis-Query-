@@ -218,10 +218,7 @@ GROUP BY category
 ## Customers Purchase Behavior Insights:
 ![Screenshot (30)](https://github.com/user-attachments/assets/b40c60a4-c726-40be-bb09-dd248edd3f78)
 
-## Business Findings & Recommendations:
-![Screenshot (29)](https://github.com/user-attachments/assets/04991435-88b5-4632-b28b-3e625387eb59)
-
-## 🔗 Power BI Dashboard Link
+## 📌 Live Power BI Dashboard Link:
 Click the Link To [View the Interactive Retail Sales Dashboard to view Key Visuals](https://app.powerbi.com/reportEmbed?reportId=7c27309d-82a6-4b12-8fc3-052503ef371d&autoAuth=true&ctid=3af45fec-8c0e-49be-8467-608b1fd05a35)
 
 ---
