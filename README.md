@@ -1,4 +1,4 @@
-# 💼 Retail-Sales-Analysis
+# 💼 Unveiling Retail Insights: Analyzing 60,000+ Sales Records of an Electronics Superstore
 ![Screenshot (27)](https://github.com/user-attachments/assets/b3ef2057-dcea-43b3-ac4b-ad65f9c51394)
 
 ## 📌 Project Overview
