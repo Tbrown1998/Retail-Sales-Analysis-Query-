@@ -29,6 +29,20 @@ This project focuses on exploring, cleaning, and analyzing a superstore's retail
 - The dataset used for this project consists of all sales transaction made by the Retail company. 
 - Dataset was downloaded from [Kaggle](www.kaggle.com)
 
+---
+
+## Data Processing Pipeline
+
+```mermaid
+graph TD
+    A[Raw Data] --> B[SQL Database]
+    B --> C[Data Cleaning]
+    C --> D[Analytical Queries]
+    D --> E[Visualization]
+    E --> F[Key Insights & Findings]
+```
+---
+
 ## Dataset Description
 The dataset contains transaction records from a retail store, including details such as:  
 - **Transaction ID** – Unique identifier for each sale.  
