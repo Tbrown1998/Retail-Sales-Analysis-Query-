@@ -5,6 +5,7 @@
 **Project Title:** Retail Sales Analysis  
 
 This project focuses on exploring, cleaning, and analyzing a superstore's retail sales data. It involves setting up a retail sales database, conducting exploratory data analysis (EDA), and using SQL queries to address key business questions.
+- ![Retail Analytics](https://img.shields.io/badge/domain-retail%20analytics-blue) ![Tech Stack](https://img.shields.io/badge/tech%20stack-Powerbi%20%7C%20SQL-orange)
 
 ## 🎯 Project Objectives 
 1. **Database Setup** – Establish and populate a database using the provided sales data.
@@ -19,6 +20,8 @@ This project focuses on exploring, cleaning, and analyzing a superstore's retail
 - **Query Language:** SQL
 - **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions
 - **Data Visualizations**: Powerbi (Data Modelling, DAX, Data visualization and interactive reporting.)
+- ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?logo=powerbi&logoColor=black) ![DAX](https://img.shields.io/badge/DAX-F2C811?logo=powerbi&logoColor=black) ![Power Query](https://img.shields.io/badge/Power_Query-F2C811?logo=powerbi&logoColor=black) ![Excel](https://img.shields.io/badge/Excel-217346?logo=microsoft-excel&logoColor=white)
+
 
 --- 
 
